@@ -21,7 +21,7 @@ function CornerBox({ children }: Readonly<{ children: React.ReactNode }>) {
 export default function AboutPage() {
   return (
     <div className="min-h-screen bg-gray-50">
-      <section className = "flex items-center justify-center gap-12 bg-gradient-to-b from-white to-gray-50 py-16 md:py-24">
+      <section className = "flex items-center justify-center gap-12 bg-gradient-to-b from-white to-gray-50 pt-16 md:pt-24">
         <div className = "container mx-auto px-4">
           <div className = "flex justify-center">
             <Image
@@ -35,7 +35,7 @@ export default function AboutPage() {
           </div>
         </div>     
       </section>
-      <div className="mx-auto max-w-[1156px] px-4 py-16">
+      <div className="mx-auto max-w-[1156px] px-4 pt-12 pb-16">
         <div className="flex flex-col gap-12">
           {/* Top Intro Box */}
           <div className="flex justify-center">
